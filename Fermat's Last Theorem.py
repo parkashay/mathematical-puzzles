@@ -1,5 +1,6 @@
 # Fermat's Last Theorem : 
 # No natural numbers x,y and z satisfy the equation x^n + y^n = z^n where n > 2.
+# one of the interesting theorems in mathematics number theory.
 n = int(input("Enter value of n : "))
 lim = int(input("Enter Limit of execution(eg. enter 100 to test upto the value of z upto 100:\n"))
 count = 0
