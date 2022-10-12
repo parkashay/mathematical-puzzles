@@ -2,11 +2,10 @@
 #Any positive even integer greater than 2 can be illustrated as a sum of two prime numbers
 
 def testPrime(x):
-    c = 0
     for i in range(2,x):
         if x%i == 0:
             return False
-    else:
+    else:                                   #beginner note : for-else and if else are two separate things in python. Here, for-else is used.
             return True
 
 num = int(input("Enter an even number greater than 2 : \n"))
